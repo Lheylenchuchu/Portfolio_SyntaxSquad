@@ -1,0 +1,156 @@
+ body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #e0f7fa, #f1f8e9);
+            color: #333;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        /* Profile Circle */
+        .circle {
+        width: 120px;
+        height: 120px;
+        border-radius: 80%;
+        overflow: hidden;  /* cuts the image into a circle */
+        margin: 15px auto;
+        border: 4px solid #2ecc71;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+   
+        .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* keeps proportions */
+}
+
+        /* Skills Section */
+        .skills {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
+        progress {
+            width: 100%;
+            height: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+
+        progress::-webkit-progress-bar {
+            background-color: #ddd;
+            border-radius: 10px;
+        }
+
+        progress::-webkit-progress-value {
+            background-color: #3498db;
+            border-radius: 10px;
+        }
+
+        /* Interests Section */
+        .interests {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
+        .interest-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .interest {
+            background: #3498db;
+            color: #fff;
+            padding: 12px 18px;
+            border-radius: 25px;
+            font-size: 1em;
+            transition: 0.3s ease;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .interest:hover {
+            background: #2980b9;
+            transform: scale(1.05);
+        }
+
+        /* Contact Section */
+        form {
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            transition: 0.2s;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #3498db;
+            outline: none;
+            box-shadow: 0 0 5px rgba(52,152,219,0.5);
+        }
+
+        input[type="submit"] {
+            background: #3498db;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            padding: 12px;
+            border-radius: 8px;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background: #2980b9;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            background: #2c3e50;
+            color: white;
+            border-top: 4px solid #27ae60;
+        }
