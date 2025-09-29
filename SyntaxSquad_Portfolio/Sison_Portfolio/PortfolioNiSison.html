@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+       background-image: url(https://i.pinimg.com/1200x/eb/6c/5f/eb6c5f7c002c23d61f5e897a44f1c716.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+</style>
+
+<body>
+
+    <svg width="200" height="200">
+        <circle cx="100" cy="100" r="40" stroke="black" stroke-width="3" fill="lightblue" />
+    </svg>
+
+    <h1>Welcome to my Webby</h1>
+    <p><i>This Web showcases the progress and a form that you can answer.</i></p>
+
+    <h1>Skills</h1>
+    <h3>Drawing</h3>
+        <dl>50%</dl>
+    
+    <progress max="100" value="50"><p></p></progress>
+
+    <h3>Java</h3>
+        <dl>20%</dl>
+    
+    <progress max="100" value="20"><p></p></progress>
+
+    <h3>Communication</h3>
+        <dl>70%</dl>
+    
+    <progress max="100" value="70"><p></p></progress>
+
+    <h1>Form</h1>
+    <label for="KpopGroup" style="color: hsl(0, 0%, 84%)">
+        <h3>Choose a Kpop Group</h3>
+    </label>
+    
+    <section class="req">
+        <input id="KpopGroup" type="search" list="Kpopgroup" placeholder="choose" style="color: hsl(0, 0%, 84%)" />
+        <datalist id="Kpopgroup">
+            <option value="Aespa">
+            <option value="Blackpink">
+            <option value="Newjeans">
+            <option value="Illit">
+            <option value="Enhypen">
+            <option value="StrayKids">
+        </datalist>
+    </section>
+
+    <section class="contact-form" id="CONTACT">
+
+        <header>
+         <h2 class="h2 article-title">Contact</h2>
+       </header>
+
+       <section class="contact-form">
+
+       <h3 class="h3 form-title">Contact Form</h3>
+
+       <form action="#" class="form" data-form>
+
+         <div class="input-wrapper">
+           <input type="text" name="fullname" class="form-input" placeholder="Full name" required/>
+
+           <input type="email" name="email" class="form-input" placeholder="Email address" required/>
+
+            <input type="tel" name="tel" class="form-input" placeholder="Tel" required/>
+         </div>
+
+         <textarea name="message" class="form-input" placeholder="Your Message"></textarea>
+
+         <button class="form-btn" type="submit">
+           <span>Send Message</span>
+         </button>
+
+       </form>
+
+       </section>
+     </section>
+
+
+</body>
+</html>

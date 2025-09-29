@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+
+  <main>
+
+
+    <div class="sidebar">
+           <svg width="200" height="200" viewBox="0 0 40 40">
+             <path d="M20 4 a16 16 0 1 0 0 32 a12 16 0 1 1 0-32"
+             fill="#f4f1c9"/>
+            </svg>
+            
+            <svg width="50" height="50" class="star"  style="margin:0 80px 0 -130px">
+             <polyline points=" 25,2 30,15 48,15 34,25 40,42 25,32 10,42 16,25
+              2,15 20,15 25,2" fill="gold"/>
+            </svg>
+
+      <div class="sidebar-info">
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick"> PORTFOLIO </h1>
+
+          <p class="title"> Welcome to Hannah's Portfolio</p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="main-content">
+
+
+      <article class="about active">
+
+        <header>
+          <h2 class="h2 article-title">About</h2>
+        </header>
+
+        <section class="about-text" id="HOME">
+          <p> A simple website portfolio to show things. This features Skill Progress, Contact section with form, and shapes. </p>
+          <div class="separator"></div>
+        </section>
+
+       
+
+        <section class="skill" id="SKILL">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Designing</h5>
+                <data value="80">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML </h5>
+                <data value="90">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+            <label for="game" style="color: hsl(0, 0%, 84%)"><h3> Choose a game </h3></label>
+        <section class="req">
+            <input id="game" type="search" list="games" placeholder="choose" style="color: hsl(0, 0%, 84%)" />
+            <datalist id="games">
+            <option value="Call of Duty">
+            <option value="Mobile Legends">
+            <option value="Genshin Impact">
+            <option value="Roblox">
+            <option value="Valorant">
+            <option value="League of Legends">
+            </datalist>
+
+        </section>
+      
+
+        <section class="contact-form" id="CONTACT">
+
+           <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required/>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required/>
+
+               <input type="tel" name="tel" class="form-input" placeholder="Tel" required/>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message"></textarea>
+
+            <button class="form-btn" type="submit">
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+          </section>
+        </section>
+
+    </article>
+
+    </div>
+
+  </main>
+
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tolentino, Charlen Grace - Portfolio</title>
+        <link rel="stylesheet" href="designForCharlen'sPortfolio.css">
+    
+        <style>
+            .typewriter 
+            {
+                position: relative;
+                top: 6px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: white;
+                font-size: 25px;
+                letter-spacing: 2px;
+                white-space: nowrap;        
+                overflow: hidden;          
+                border-right: 2px solid #C8A2C8;
+                display: inline-block;
+                width: 0;                  
+                animation: typingLoop 4s steps(20, end) infinite, blink 0.6s step-end infinite;
+            }
+
+            @keyframes typingLoop 
+            {
+                0% { width: 0; }        
+                80% { width: 19ch; }    
+                100% { width: 19ch; }  
+            }
+        
+            @keyframes blink 
+            {
+                50% { border-color: transparent; } 
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="contacts">
+            <nav>
+                <h2>My Portfo<span>lio</span></h2>
+                <ul class="logo">
+                    <li><a href="Skills/My_Skills.html">Skills</a></li>
+                    <li><a href="Contact/Contact_Me.html">Contact Me</a></li>
+                    <li><a href="Search/Search_Box.html">Search</a></li>
+                    <li><a href="SVG_Shapes/05Lab1-CGT.html">SVG Shapes</a></li>
+                </ul>
+                <a href="#" class="button">Subscribe</a>
+            </nav>
+        </div>
+
+        <div class="myProfile">
+            <img src="Image/LilenPic.jfif" alt="My Profile" class="mySelf">
+        </div>
+        
+        <section class="introduction">
+            <h4>Hello, my name is</h4>
+            <h2 class="name"><b>CHARLEN GRACE TOLENTINO</b></h2>
+            <div class="dev"><h3>I'm a <strong class="typewriter">Future Web Developer</strong></h3></div>
+        </section>
+    </body>
+</html>
+

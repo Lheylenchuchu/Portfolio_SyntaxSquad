@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mini Portfolio</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #e0f7fa, #f1f8e9);
+            color: #333;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        /* Profile Circle */
+        .circle {
+        width: 120px;
+        height: 120px;
+        border-radius: 80%;
+        overflow: hidden;  /* cuts the image into a circle */
+        margin: 15px auto;
+        border: 4px solid #2ecc71;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+   
+        .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* keeps proportions */
+}
+
+        /* Skills Section */
+        .skills {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
+        progress {
+            width: 100%;
+            height: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+
+        progress::-webkit-progress-bar {
+            background-color: #ddd;
+            border-radius: 10px;
+        }
+
+        progress::-webkit-progress-value {
+            background-color: #3498db;
+            border-radius: 10px;
+        }
+
+        /* Interests Section */
+        .interests {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
+        .interest-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .interest {
+            background: #3498db;
+            color: #fff;
+            padding: 12px 18px;
+            border-radius: 25px;
+            font-size: 1em;
+            transition: 0.3s ease;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .interest:hover {
+            background: #2980b9;
+            transform: scale(1.05);
+        }
+
+        /* Contact Section */
+        form {
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            transition: 0.2s;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #3498db;
+            outline: none;
+            box-shadow: 0 0 5px rgba(52,152,219,0.5);
+        }
+
+        input[type="submit"] {
+            background: #3498db;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            padding: 12px;
+            border-radius: 8px;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background: #2980b9;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            background: #2c3e50;
+            color: white;
+            border-top: 4px solid #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>My Portfolio</h1>
+
+        <!-- Profile Circle -->
+        <div class="circle">
+        <img src="c:\Users\LENOVO\OneDrive\Desktop\Ashley'sPortfolio\MY PORTFOLIO\ImageAshleyPic.jfif.jpg" alt="My Profile Picture">
+   </div>
+
+        <div class="intro">
+            <h2>About Me</h2>
+            <p>
+                Hi! My name is Ashley Joy D. Agcaoili, and I'm an aspiring web developer. 
+                I enjoy building creative and functional websites while constantly learning new skills. 
+                This portfolio is a small showcase of my progress in HTML, CSS, and JavaScript. And it also shows my
+                Hobbies and Interest in this portfolio.
+            </p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills">
+            <h2>My Skills Progress</h2>
+            <p>HTML5 Learning Progress:</p>
+            <progress value="70" max="100"></progress>
+
+            <p>CSS Learning Progress:</p>
+            <progress value="30" max="100"></progress>
+
+            <p>JavaScript Learning Progress:</p>
+            <progress value="50" max="100"></progress>
+        </div>
+
+        <!-- Interests Section -->
+        <div class="interests">
+            <h2>My Hobbies & Interests</h2>
+            <div class="interest-list">
+                <div class="interest">🎨 Drawing</div>
+                <div class="interest">🎮 Gaming</div>
+                <div class="interest">📚 Reading</div>
+                <div class="interest">🎶 Music</div>
+                <div class="interest">🍳 Cooking</div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <h2>Contact Me</h2>
+        <form>
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email Address:</label>
+            <input type="email" placeholder="example@example.com" required>
+
+            <label>Portfolio Website:</label>
+            <input type="url" placeholder="https://example.com">
+
+            <label>Number:</label>
+            <input type="tel" placeholder="555-555-1211">
+
+            <label>Message:</label>
+            <textarea placeholder="Write something..." rows="4"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+
+    </div>
+

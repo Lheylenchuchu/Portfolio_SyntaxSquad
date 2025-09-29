@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Mini Portfolio</title>
+
+  <link rel="stylesheet" href="">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      color: #052a3f;
+    }
+    .shape {
+      width: 100px;
+      height: 100px;
+      background: rgb(2, 155, 194);
+      border-radius: 50% 50% 50% 0;
+      margin: 10px 0;
+    }
+    progress {
+      width: 200px;
+      height: 20px;
+    }
+    form {
+      margin-top: 10px;
+    }
+    form input, form textarea {
+      margin: 5px;
+    }
+    .send-btn {
+      padding: 5px 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bello's portfolio:></h1>
+  <p>Welcome to my HTML5 practice project!</p>
+
+  <div class="shape"></div>
+
+  <h2>My Skills Progress</h2>
+  <p>HTML5 Learning Progress:</p>
+  <progress value="60" max="100"></progress>
+
+  <p>CSS Learning Progress:</p>
+  <progress value="40" max="100"></progress>
+
+  <p>JavaScript Learning Progress:</p>
+  <progress value="20" max="100"></progress>
+
+  <h2>Search Example</h2>
+  <label for="tools">Favorite Web Tool: </label>
+  <input list="tools" name="tools" id="tools">
+  <datalist id="tools">
+    <option value="Figma">
+    <option value="Canva">
+    <option value="GitHub">
+    <option value="Stack Overflow">
+  </datalist>
+
+  <h2>Contact Me</h2>
+  <form>
+    <label>Full Name:</label>
+    <input type="text" value=""><br>
+
+    <label>Email Address:</label>
+    <input type="email" value=""><br>
+
+    <label>Number:</label>
+    <input type="tel" value=""><br>
+
+    <label>Portfolio Website:</label>
+    <input type="url" placeholder="https://example.com"><br><br>
+
+    <label>Messenger:</label>
+    <input type="text" value=""><br><br>
+
+    <label>Message:</label>
+    <textarea placeholder="Write something..."></textarea><br>
+
+    <button type="submit" class="send-btn">Send</button>
+  </form>
+
+</body>
+</html>
