@@ -1,0 +1,97 @@
+body
+{
+    background-image: url(Image/bgContact.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: black;
+}
+
+h2
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+span
+{
+    color: #C8A2C8;
+}
+
+.contactForm
+{
+    background-color: rgba(234, 228, 228, 0.553);
+    border: 1px #C8A2C8;
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 530px;
+    height: 500px;
+    width: 400px;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+}
+
+h1
+{
+    color: black;
+    position: relative;
+    top: 30px;
+    left: 113px;
+}
+
+form
+{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+label
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+input
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 35px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 10px;
+    color: black;
+}
+
+button
+{
+    background:  #C8A2C8;
+    height: 40px;
+    width: 140px;
+    position: relative;
+    top: 10px;
+    left: 80px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+button:hover
+{
+    transform: scale(1.1);
+}

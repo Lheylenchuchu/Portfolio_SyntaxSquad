@@ -1,0 +1,91 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body
+{
+    background-image: url(Image/bgSearch.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h2
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+span
+{
+    color: #C8A2C8;
+}
+
+h1
+{
+    color: white;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.searchBar
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+}
+    
+input
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    width: 485px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    color: black;
+    transition: 0.4s ease-out;
+}
+
+input:focus
+{
+    width: 550px;
+}
+
+i
+{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    color: #555;
+    cursor: pointer;
+}
+
+button
+{
+    color: #502d0b;
+    position: relative;
+    left: 10px;
+    padding: 10px;
+    background-color: #C8A2C8;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    transition: transform .4s ease;
+}
+
+button:hover
+{
+    transform: scale(1.1);
+}

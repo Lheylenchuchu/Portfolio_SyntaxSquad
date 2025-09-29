@@ -1,0 +1,85 @@
+body
+{
+    background-image: url(Image/bgSkills.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+h2
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+span
+{
+    color: #C8A2C8;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    position: relative;
+    top: -30px;
+}
+h3
+{
+    color:#c3eefa;
+}
+.skills
+{
+    background-color: rgb(44, 40, 40);
+    position: relative;
+    left: 380px;
+    top: -40px;
+    height: 380px;
+    width: 700px;
+    padding-left: 30px;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+.html
+{
+    position: relative;
+    left: 10px;
+    margin-top: 50px;
+}
+
+.css
+{
+    position: relative;
+    left: 10px;
+}
+
+.js
+{
+    position: relative;
+    left: 10px;
+}
+
+.percent1
+{
+    position: relative;
+    left: 360px;
+}
+
+.percent2
+{
+    position: relative;
+    left: 413px;
+}
+
+.percent3
+{
+    position: relative;
+    left: 515px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activity1-Drawing Shapes in HTML</title>
+        <style>
+            body
+            {
+                background-color: black;
+                background-position: center;
+                background-size: cover;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            
+            h2
+            {
+            display: flex;
+            padding-top: 45px;
+            padding-left: 8%;
+            padding-right: 8%;
+            color: white;
+            }
+
+            span
+            {
+                color: #C8A2C8;
+            }
+
+            h3
+            {
+                display: flex;
+                justify-content: center;
+                color: white;
+            }
+
+            svg
+            {
+                position: relative;
+                left: 430px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>My Portfo<span>lio</span></h2><br>
+        <h3><span>SVG</span> ~ Shapes</h3>
+        <br>
+        <svg width="600" height="400" style="border: 5px solid white; border-radius: 5px; box-shadow: 0 0 20px #C8A2C8;">
+            <!-- Sky background -->
+            <rect x="0" y="0" width="600" height="400" fill="skyblue"/>
+
+            <!-- Ground -->
+            <rect x="0" y="300" width="600" height="100" fill="green"/>
+
+            <!-- House body -->
+            <rect x="200" y="180" width="200" height="120" fill="burlywood" stroke="black" stroke-width="2"/>
+
+            <!-- Roof (triangle) -->
+            <polygon points="200,180 300,100 400,180" fill="brown" stroke="black" stroke-width="2"/>
+
+            <!-- Door -->
+            <rect x="280" y="230" width="40" height="70" fill="saddlebrown" stroke="black"/>
+
+            <!-- Window -->
+            <rect x="330" y="210" width="40" height="40" fill="lightyellow" stroke="black"/>
+            <line x1="330" y1="230" x2="370" y2="230" stroke="black"/>
+            <line x1="350" y1="210" x2="350" y2="250" stroke="black"/>
+
+            <!-- Sun -->
+            <circle cx="80" cy="80" r="40" fill="yellow" stroke="orange" stroke-width="3"/>
+        </svg>
+    </body>
+</html>
